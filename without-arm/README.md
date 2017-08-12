@@ -18,7 +18,7 @@ Download _create-resources.ps1_ and _cd_ into the folder where you downloaded th
 ### 3. Run the PowerShell script
 Run the script as below passing the 10 parameters. 
 
-Below mentioned command is an example. Make sure you change all the parameter values in bold.
+Below mentioned command is an example. Make sure you change all the parameter values appropriately.
 ```
-.\create-resources.ps1 -resourceGroup **my_pcf_rg** -location **westus** -storageSKU **Standard_LRS** -boshStorageAccountName **myboshstorageacct** -deploymentStorageAccountNameRoot **mydeploystorageacct** -deploymentStorageAccountCount **5** -ops_mgr_vhd_pivnet_url **"https://opsmanagerwestus.blob.core.windows.net/images/ops-manager-1.10.4.vhd"** -ssh_key_path **"C:/pcf/id_rsa.pub"** -vmName **ops-manager** -environment **AzurePublicCloud**
+.\create-resources.ps1 -resourceGroup my_pcf_rg -location westus -storageSKU Standard_LRS -boshStorageAccountName myboshstorageacct -deploymentStorageAccountNameRoot mydeploystorageacct -deploymentStorageAccountCount 5 -ops_mgr_vhd_pivnet_url "https://opsmanagerwestus.blob.core.windows.net/images/ops-manager-1.10.4.vhd" -ssh_key_path "C:/pcf/id_rsa.pub" -vmName ops-manager -environment AzurePublicCloud
 ```
