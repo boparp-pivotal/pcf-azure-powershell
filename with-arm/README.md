@@ -20,8 +20,8 @@ Run the script as below passing the 5 parameters.
 Below mentioned command is an example. Make sure you change all the parameter values in bold.
 ```
 .\create-resources-1.ps1 -resourceGroup **my_pcf_rg** -location **westus** -storageSKU **Standard_LRS** -boshStorageAccountName **myboshstorageacct** -ops_mgr_vhd_pivnet_url **"https://opsmanagerwestus.blob.core.windows.net/images/ops-manager-1.10.4.vhd"**
-**Note** This script will create the resources in Step 1 and Step 2 on [this page](http://docs.pivotal.io/pivotalcf/customizing/azure-arm-template.html)
 ```
+**Note** This script will create the resources in Step 1 and Step 2 on [this page](http://docs.pivotal.io/pivotalcf/customizing/azure-arm-template.html)
 
 ### 4. Deploy your ARM template
 Download _azure-deploy.json_ and _azure-deploy-parameters.json_ from [here](https://github.com/pivotal-cf/pcf-azure-arm-templates)
